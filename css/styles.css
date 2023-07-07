@@ -270,28 +270,26 @@ button::after {
   z-index: -2;
 }
 
-/*.record-arm {
-	position: absolute;
-	top: -10px;
-	left: 10px;
-	width: 80%;
-	height: 5px;
-	background: linear-gradient(
-		180deg,
-		#7e7e7e 0%,
-		#e3e3e3 20%,
-		#787878 50%,
-		#e3e3e3 95%,
-		#7e7e7e 100%
-	);
-	transform-origin: left center;
-	rotate: -6deg;
-	z-index: -3;
-
-	animation: record-playing 1s infinite linear;
-	transition: rotate 0.7s ease-in-out;
+.record-arm {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  width: 80%;
+  height: 5px;
+  background: linear-gradient(180deg,
+      #7e7e7e 0%,
+      #e3e3e3 20%,
+      #787878 50%,
+      #e3e3e3 95%,
+      #7e7e7e 100%);
+  transform-origin: left center;
+  rotate: -6deg;
+  z-index: -3;
+  animation: record-playing 1s infinite linear;
+  transition: rotate 0.7s ease-in-out;
 }
 
+/*
 #button-container[data-playing="false"] .record-arm {
 	rotate: -6deg;
 	animation-play-state: paused;
