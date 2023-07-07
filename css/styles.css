@@ -289,13 +289,12 @@ button::after {
   transition: rotate 0.7s ease-in-out;
 }
 
-/*
 #button-container[data-playing="false"] .record-arm {
-	rotate: -6deg;
-	animation-play-state: paused;
+  rotate: -6deg;
+  animation-play-state: paused;
 }
 
-#button-container[data-playing="true"] .record-arm {
+/*#button-container[data-playing="true"] .record-arm {
 	rotate: -1deg;
 	animation-play-state: running;
 }
