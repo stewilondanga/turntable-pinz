@@ -234,28 +234,26 @@ button {
   cursor: pointer;
 }
 
-/*.record {
-	content: "";
-	position: absolute;
-	top: -3px;
-	left: 0;
-	width: 100%;
-	height: 3px;
-	background: linear-gradient(
-		90deg,
-		hsl(0, 0%, 11%) 0%,
-		hsl(0, 1%, 41%) 20%,
-		hsl(0, 0%, 11%) 50%,
-		hsl(0, 0%, 11%) 95%,
-		hsl(0, 1%, 40%) 100%
-	);
-	transform: rotateZ(-0.5deg);
-	z-index: -1;
-
-	animation: record-playing 1s infinite linear;
-	animation-play-state: paused;
+.record {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg,
+      hsl(0, 0%, 11%) 0%,
+      hsl(0, 1%, 41%) 20%,
+      hsl(0, 0%, 11%) 50%,
+      hsl(0, 0%, 11%) 95%,
+      hsl(0, 1%, 40%) 100%);
+  transform: rotateZ(-0.5deg);
+  z-index: -1;
+  animation: record-playing 1s infinite linear;
+  animation-play-state: paused;
 }
 
+/*
 button::after {
 	content: "";
 	position: absolute;
