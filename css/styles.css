@@ -207,11 +207,11 @@ body {
   z-index: -1;
 }
 
-/*#button-container::before {
-	left: 3px;
+#button-container::before {
+  left: 3px;
 }
 
-#button-container::after {
+/*#button-container::after {
 	right: 3px;
 }
 
