@@ -299,11 +299,11 @@ button::after {
   animation-play-state: running;
 }
 
-/*
 #button-container[data-playing="true"] .record-arm::before {
-	rotate: 0deg;
+  rotate: 0deg;
 }
 
+/*
 #button-container[data-playing="true"] .record-arm::after {
 	translate: 0 0;
 }
