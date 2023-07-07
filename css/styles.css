@@ -315,29 +315,27 @@ button::after {
   animation-play-state: running;
 }
 
-/*
 .record-arm::before {
-	content: "";
-	position: absolute;
-	top: -3px;
-	left: 0;
-	width: 25px;
-	height: 25px;
-	border-radius: 7px 2px 0 0;
-	background: linear-gradient(
-		90deg,
-		hsl(0, 0%, 11%) 0%,
-		hsl(0, 1%, 41%) 20%,
-		hsl(0, 0%, 11%) 50%,
-		hsl(0, 0%, 11%) 95%,
-		hsl(0, 1%, 40%) 100%
-	);
-	rotate: 6deg;
-	transform-origin: center;
-	z-index: -1;
-	transition: rotate 0.7s ease-in-out;
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px 2px 0 0;
+  background: linear-gradient(90deg,
+      hsl(0, 0%, 11%) 0%,
+      hsl(0, 1%, 41%) 20%,
+      hsl(0, 0%, 11%) 50%,
+      hsl(0, 0%, 11%) 95%,
+      hsl(0, 1%, 40%) 100%);
+  rotate: 6deg;
+  transform-origin: center;
+  z-index: -1;
+  transition: rotate 0.7s ease-in-out;
 }
 
+/*
 .record-arm::after {
 	content: "";
 	position: absolute;
