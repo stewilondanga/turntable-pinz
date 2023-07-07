@@ -180,14 +180,14 @@ body {
       hsl(0deg 82% 91%) 100%);
 }
 
-/*.main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-#button-container {
+/*#button-container {
 	position: relative;
 }
 
