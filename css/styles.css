@@ -311,11 +311,11 @@ button::after {
   animation-play-state: paused;
 }
 
-/*
 #button-container[data-playing="true"] .record {
-	animation-play-state: running;
+  animation-play-state: running;
 }
 
+/*
 .record-arm::before {
 	content: "";
 	position: absolute;
