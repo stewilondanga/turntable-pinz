@@ -294,11 +294,12 @@ button::after {
   animation-play-state: paused;
 }
 
-/*#button-container[data-playing="true"] .record-arm {
-	rotate: -1deg;
-	animation-play-state: running;
+#button-container[data-playing="true"] .record-arm {
+  rotate: -1deg;
+  animation-play-state: running;
 }
 
+/*
 #button-container[data-playing="true"] .record-arm::before {
 	rotate: 0deg;
 }
