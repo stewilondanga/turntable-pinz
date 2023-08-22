@@ -165,7 +165,7 @@ a {
   line-height: 100%;
 }
 
-/*body {
+body {
   background-image: linear-gradient(210deg,
       hsl(240deg 43% 53%) 0%,
       hsl(308deg 40% 53%) 11%,
@@ -180,7 +180,7 @@ a {
       hsl(0deg 82% 91%) 100%);
 }
 
-.main {
+/*.main {
   display: flex;
   justify-content: center;
   align-items: center;
