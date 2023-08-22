@@ -307,11 +307,11 @@ button::after {
   translate: 0 0;
 }
 
-/*#button-container[data-playing="false"] .record {
+#button-container[data-playing="false"] .record {
   animation-play-state: paused;
 }
 
-#button-container[data-playing="true"] .record {
+/*#button-container[data-playing="true"] .record {
   animation-play-state: running;
 }
 
