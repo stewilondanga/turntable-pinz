@@ -303,11 +303,11 @@ button::after {
   rotate: 0deg;
 }
 
-/*#button-container[data-playing="true"] .record-arm::after {
+#button-container[data-playing="true"] .record-arm::after {
   translate: 0 0;
 }
 
-#button-container[data-playing="false"] .record {
+/*#button-container[data-playing="false"] .record {
   animation-play-state: paused;
 }
 
