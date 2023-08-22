@@ -215,7 +215,7 @@ body {
   right: 3px;
 }
 
-/*button {
+button {
   min-width: 200px;
   color: white;
   border: none;
@@ -234,7 +234,7 @@ body {
   cursor: pointer;
 }
 
-.record {
+/*.record {
   content: "";
   position: absolute;
   top: -3px;
