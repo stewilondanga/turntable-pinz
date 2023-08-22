@@ -187,11 +187,11 @@ body {
   height: 100vh;
 }
 
-/*#button-container {
+#button-container {
   position: relative;
 }
 
-#button-container::before,
+/*#button-container::before,
 #button-container::after {
   content: "";
   position: absolute;
