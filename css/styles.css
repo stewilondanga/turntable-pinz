@@ -315,7 +315,7 @@ button::after {
   animation-play-state: running;
 }
 
-/*.record-arm::before {
+.record-arm::before {
   content: "";
   position: absolute;
   top: -3px;
@@ -335,7 +335,7 @@ button::after {
   transition: rotate 0.7s ease-in-out;
 }
 
-.record-arm::after {
+/*.record-arm::after {
   content: "";
   position: absolute;
   top: -2px;
