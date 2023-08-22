@@ -270,7 +270,7 @@ button::after {
   z-index: -2;
 }
 
-/*.record-arm {
+.record-arm {
   position: absolute;
   top: -10px;
   left: 10px;
@@ -289,7 +289,7 @@ button::after {
   transition: rotate 0.7s ease-in-out;
 }
 
-#button-container[data-playing="false"] .record-arm {
+/*#button-container[data-playing="false"] .record-arm {
   rotate: -6deg;
   animation-play-state: paused;
 }
