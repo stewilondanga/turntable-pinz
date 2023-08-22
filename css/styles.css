@@ -191,7 +191,7 @@ body {
   position: relative;
 }
 
-/*#button-container::before,
+#button-container::before,
 #button-container::after {
   content: "";
   position: absolute;
@@ -207,7 +207,7 @@ body {
   z-index: -1;
 }
 
-#button-container::before {
+/*#button-container::before {
   left: 3px;
 }
 
