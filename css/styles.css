@@ -211,11 +211,11 @@ body {
   left: 3px;
 }
 
-/*#button-container::after {
+#button-container::after {
   right: 3px;
 }
 
-button {
+/*button {
   min-width: 200px;
   color: white;
   border: none;
