@@ -253,7 +253,7 @@ button {
   animation-play-state: paused;
 }
 
-/*button::after {
+button::after {
   content: "";
   position: absolute;
   top: -10px;
@@ -270,7 +270,7 @@ button {
   z-index: -2;
 }
 
-.record-arm {
+/*.record-arm {
   position: absolute;
   top: -10px;
   left: 10px;
